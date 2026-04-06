@@ -52,6 +52,10 @@ function Loader.AddComponents(...: PathParams)
 	componentsToCreate = { ... }
 end
 
+function Loader.Get(name: string)
+	return loadedModules[name]
+end
+
 --Private:
 function Loader._load(module: ModuleScript)
 	assert(module:IsA("ModuleScript"), "Object is not a ModuleScript")

@@ -1,6 +1,6 @@
 [package]
 name = "vynx777/loader"
-version = "1.0.0"
+version = "1.0.1"
 description = "A lightweight, strictly-typed bootstrapper for automated deep-requiring, lifecycle execution, and component registration."
 license = "MIT"
 authors = ["Vynx777"]
